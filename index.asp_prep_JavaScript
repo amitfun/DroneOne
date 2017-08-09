@@ -1,0 +1,162 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+  function isAlreadyLoggedIn()
+  {
+   bloggedin = 'Cx_0dummy';
+   if (bloggedin == "true")
+   {
+    window.location = '/Contents/index.asp';
+   }
+  }
+
+  isAlreadyLoggedIn();
+
+  function setFocusField()
+  {
+   var usernameDisplayed = "Cx_0dummy";
+   if (usernameDisplayed == "true")
+    document.LoginForm.Password.focus();
+   else
+    document.LoginForm.Login.focus();
+  }
+
+
+  var message = 'Cx_0dummy';
+
+   function showMessage()
+   {
+    if (message != "" && message != " ")
+     alert(message);
+   }
+
+   function getLanguages()
+   {
+    var count = 0;
+    var langDescArray = new Array(0);
+    var langSelectArray = new Array(0);
+    var langValueArray = new Array(0);
+
+    Cx_0dummy
+
+
+
+
+
+
+
+
+
+
+
+
+    if (count > 1)
+    {
+     document.write('<tr>');
+     document.write('<td align="center">');
+     document.write('Cx_0dummy');
+     document.write('</td>');
+     document.write('<td align="center">');
+     document.write('<select size=1 name=Language maxLength=20>');
+     for (i=0; i<langDescArray.length; i++)
+     {
+      document.write('<option value="' + langValueArray[i] + '"');
+      if (langSelectArray[i] == 'true')
+       document.write(' selected="selected"');
+      document.write('>' + langDescArray[i] + '</option>');
+     }
+     document.write('</select>');
+     document.write('</td>');
+     document.write('</tr>');
+    }
+   }
+       
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
