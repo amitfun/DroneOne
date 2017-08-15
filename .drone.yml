@@ -2,6 +2,7 @@ pipeline:
   build:
     image: cximage
     commands:
+      - echo Run Checkmarx scan
       - pwd
-      - ls -a
-      - /app/runCxConsole.sh scan
+      - ls -lR
+      - /app/runCxConsole.sh scan -verbose -CxServer 169.254.35.1 -Projectname drone3 -CxUser Amit -CxPassword admiN123! -LocationType folder -LocationPath $(pwd)
